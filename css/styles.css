@@ -1,0 +1,220 @@
+body{
+    background-color: #ece2e4;
+    margin:0%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.topContainer{
+    position: relative;
+    padding-top: 5%;
+    background-color: #ddb3bb;
+    margin-bottom: 0;
+}
+
+.p-description{
+    font-family: 'Fredoka One', cursive;
+    margin:0%;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #c44f58;
+}
+
+.h1-name{
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    color: #de4552;
+    line-height: 1;
+}
+
+h2{
+    font-size:1.9rem;
+    color: #5e5d96;
+
+}
+
+h3{
+    font-size: 1.8rem;
+    color: #6796ac;
+}
+
+.p-contact{
+    font-size: 1.3rem;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.makima{
+    margin-top: 3%;
+    display:inline-block;
+    width: 25%;
+    height: 25%;
+}
+
+#fingerprint-one{
+    -webkit-transform:rotate(27deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotate(27deg);
+    -ms-transform: rotate(27deg);
+    -o-transform: rotate(27deg);
+    transform: rotate(27deg);   /* Standard syntax */
+    width: 250px;
+    height: 250px;
+    rotate: 23;
+    display:inline-block;
+    position:absolute;
+    right:7%;
+}
+
+#fingerprint-two{
+    -webkit-transform:rotate(-13deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotate(-13deg);
+    -ms-transform: rotate(-13deg);
+    -o-transform: rotate(-13deg);
+    transform: rotate(-13deg);   /* Standard syntax */
+    rotate: -13;
+    width: 250px;
+    height: 250px;
+    display:inline-block;
+    position:absolute;
+    left:16%;
+    bottom:30%;
+}
+
+.profile {
+    margin-bottom: 2%;
+}
+
+.cropblue {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.cropprog {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row{
+    width:50%;
+    margin: 85px auto 125px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.profile {
+    margin-top: 3%;
+}
+
+.contact-me{
+    margin-top: 3%;
+    line-height: 2;
+}
+
+.bottom-container{
+    padding: 3%;
+    line-height: 2;
+    background-color: #ddb3bb;
+
+}
+
+.footer-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(224, 74, 74);
+    margin:auto 3% auto 3%;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+
+.footer-link:hover{
+    color: white;
+}
+
+.copyright{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 244, 244);
+    font-size: 1.2rem;
+}
+
+.hr-line{
+    width: 69%;
+    background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+.topContainer-emptydiv{
+    margin: 1.5% auto 1.5% auto;
+    padding: 1.9%;
+    background-color: #ddb3bb;
+}
+
+.bottomContainer-emptydiv{
+    margin: 4.5% auto 1.5% auto;
+    padding: 1.9%;
+    background-color: #ddb3bb;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.btn-11 {
+    border: none;
+    background: rgb(230, 78, 136);
+      background: linear-gradient(0deg, rgb(199, 97, 136) 0%, rgb(226, 82, 137) 100%);
+      color: #fff;
+      overflow: hidden;
+  }
+  .btn-11:hover {
+      text-decoration: none;
+      color: #fff;
+  }
+  .btn-11:before {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      top: -180px;
+      left: 0;
+      width: 30px;
+      height: 100%;
+      background-color: #fff;
+      animation: shiny-btn1 3s ease-in-out infinite;
+  }
+  .btn-11:hover{
+    opacity: .7;
+  }
+  .btn-11:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  }
+  
+  
+  @-webkit-keyframes shiny-btn1 {
+      0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+      80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+      81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+      100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+  }
+
